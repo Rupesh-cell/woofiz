@@ -1,0 +1,36 @@
+.card-collector {
+  margin-top: 102px;
+  margin-bottom: 102px;
+  .new {
+    width: 1140px;
+    margin: auto;
+    h2 {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #0f6799;
+    }
+  }
+  .cards-c {
+    display: flex;
+    justify-self: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+    .css-l3mix9-MuiPaper-root-MuiCard-root {
+      width: 265px;
+      height: 328px;
+      img {
+        height: 246px;
+      }
+    }
+    .css-h93ljk-MuiTypography-root {
+      text-align: center;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+
+      color: rgba(0, 0, 0, 0.81);
+    }
+  }
+}

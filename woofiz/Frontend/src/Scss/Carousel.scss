@@ -1,0 +1,31 @@
+.carousel {
+    width: 1140px;
+    margin: auto;
+    height:300px;
+    margin-top:40px;
+    
+    .carousel-inner {
+        height: 250px;
+        border-radius:6px;
+
+    }
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50px;
+    height:8px;
+    width: 8px;
+    background:#033551;;
+    border-top: 0px; 
+    border-bottom: 0px ;
+    margin-bottom: 10px;
+}
+.carousel-control-next  span, .carousel-control-prev span{
+     background-color:#033551;
+     border-radius:30px;
+     height: 25px;
+     width: 25px;
+     margin-bottom:48px;
+
+}
+
+}

@@ -9,7 +9,7 @@ const Footer = () => {
 	return (
 		<>
 			<div className="footer-container">
-				<Container className="container-footer">
+				
 					<div className="footer-contents">
 						<div className="footer-logo">
 							<img src={Logo} alt="" />
@@ -44,9 +44,9 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-				</Container>
+				
 				<div className="copyright-container">
-					<Container>
+					
 						<div className="copyright-items">
 							<div className="footer-copyright-l">
 								Copyright @2022 FEBVAL
@@ -60,7 +60,7 @@ const Footer = () => {
 								</a>
 							</div>
 						</div>
-					</Container>
+					
 				</div>
 			</div>
 		</>
