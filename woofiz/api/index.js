@@ -18,7 +18,7 @@ const salesBanner = require("./routes/salesBanner.routes");
 const NewsLetterRoutes = require("./routes/newsLetter.routes");
 const StripePaymentRoutes = require("./routes/stripe.routes");
 const PaytemRoutes = require("./routes/paytm.routes");
-const startAdmin = require("./admin/app");
+
 
 const app = express();
 const PORT = process.env.EXPRESS_PORT | 3001;
@@ -34,7 +34,7 @@ morganBody(app);
 sequelize.sync({});
 
 // Admin
-startAdmin(app);
+
 
 app.use(
 	cookieSession({

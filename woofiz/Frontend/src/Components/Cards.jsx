@@ -5,8 +5,17 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import '../Scss/featured.scss';
+import axios from 'axios';
 
 export default function cards() {
+  
+const options = {method: 'GET', url: 'http://localhost:3001/api/products'};
+
+axios.request(options).then(function (response) {
+  console.log(response.data);
+}).catch(function (error) {
+  console.error(error);
+});
   return (
     <div className="card-collector">
           
