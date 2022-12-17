@@ -16,6 +16,15 @@ axios.request(options).then(function (response) {
 }).catch(function (error) {
   console.error(error);
 });
+
+
+const go = {method: 'POST', url: 'http://localhost:3001/api/products/create'};
+
+axios.request(options).then(function (response) {
+  console.log(response.data);
+}).catch(function (error) {
+  console.error(error);
+});
   return (
     <div className="card-collector">
           
