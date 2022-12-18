@@ -4,9 +4,9 @@ import Home from "./Pages/Home";
 
 
 const App = () => {
+	const user= true;
 	return (
 		<>
-		
 			<Router>
 				
 				<Routes>

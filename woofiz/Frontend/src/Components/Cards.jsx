@@ -9,7 +9,7 @@ import axios from 'axios';
 
 export default function cards() {
   
-const options = {method: 'GET', url: 'http://localhost:3001/api/products'};
+const options = {method: 'GET', url: '/api/products'};
 
 axios.request(options).then(function (response) {
   console.log(response.data);
@@ -17,14 +17,6 @@ axios.request(options).then(function (response) {
   console.error(error);
 });
 
-
-const go = {method: 'POST', url: 'http://localhost:3001/api/products/create'};
-
-axios.request(options).then(function (response) {
-  console.log(response.data);
-}).catch(function (error) {
-  console.error(error);
-});
   return (
     <div className="card-collector">
           

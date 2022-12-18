@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Scss/nav.scss";
 import Form from "react-bootstrap/Form";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Profile from "../Assets/Profile.svg";
 import Cart from "../Assets/Cart.svg";
 import Logo from "../Assets/Logo.svg";
+import Login from "./Login";
 
 const Nav = () => {
+  const [modal, setModal] = useState(false);
   return (
     <>
       <div className="main-nav">
@@ -25,10 +27,16 @@ const Nav = () => {
             </Form>
           </div>
           <div className="other-items">
-            <div className="login">
+            <Link
+              className="login"
+              onClick={() => {
+                setModal = true;
+              }}
+            >
               <h2>Login</h2>
               <img src={Profile} alt="" />
-            </div>
+            </Link>
+
             <div className="cart">
               <img src={Cart} alt="" />
               <div>
@@ -44,7 +52,7 @@ const Nav = () => {
             <NavLink>Electric</NavLink>
             <NavLink>Motorbikes</NavLink>
             <NavLink>Clothes</NavLink>
-			<NavLink>Furniture</NavLink>
+            <NavLink>Furniture</NavLink>
             <NavLink>Others</NavLink>
           </div>
         </div>
