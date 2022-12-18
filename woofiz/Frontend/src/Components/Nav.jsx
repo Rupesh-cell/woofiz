@@ -57,8 +57,13 @@ const Nav = () => {
           </div>
         </div>
       </div>
+      <Login show={modal} onHide={() => setModal(false)} />
     </>
+    
   );
+  
+
 };
+
 
 export default Nav;
