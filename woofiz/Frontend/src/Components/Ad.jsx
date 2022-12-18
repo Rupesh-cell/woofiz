@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import '../Scss/ad.scss';
 
 const Ad = () => {
@@ -12,5 +12,4 @@ const Ad = () => {
     </>
   )
 }
-
-export default Ad
+export default Ad;
