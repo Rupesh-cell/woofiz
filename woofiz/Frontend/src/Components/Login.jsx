@@ -23,7 +23,6 @@ const Login = (props) => {
 				</Modal.Body>
 				<Modal.Footer className="login-modal-footer">
 					<a
-						href="#"
 						className="login-google"
 						onClick={() => {
 							window.open(

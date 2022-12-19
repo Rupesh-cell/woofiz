@@ -6,17 +6,17 @@ import "../Scss/footer.scss";
 import Carouse from "../Components/Carousel";
 import Cards from "../Components/Cards";
 import Ad from "../Components/Ad";
-import { getUser } from "../auth/Auth";
-import Login from "../Components/Login";
+// import { getUser } from "../auth/Auth";
+// import Login from "../Components/Login";
 
 const Home = () => {
-const [user,setUser] = useState(null);
-useEffect(() => { getUser().then((user) =>{
-  setUser(user);
-})
-console.log(user);
+// const [user,setUser] = useState(null);
+// useEffect(() => { getUser().then((user) =>{
+//   setUser(user);
+// })
+// console.log(user);
  
-}, [])
+// }, [])
 
   return (
 
