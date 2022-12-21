@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import {Carousel} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Scss/Carousel.scss';
 
 const Carouse = () =>{
+  
   return (
     <>
     <Carousel>
