@@ -4,8 +4,8 @@
   
 
 	.footer-contents {
-		width:1140px;
-		
+		max-width:1140px;
+		width: 100%;
 		margin:auto;
 		flex-wrap: wrap;
 		background:#033551;
@@ -107,7 +107,7 @@
 	}
 }
 .container{
-	max-width: 100% !important;
+	max-width: 100%!important;
     background:#ffffff;
 	padding: 0px !important;
 	margin: 0px;

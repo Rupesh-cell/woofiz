@@ -2,7 +2,8 @@
   margin-top: 102px;
   margin-bottom: 102px;
   .new {
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     margin: auto;
     h2 {
       font-weight: 600;
@@ -17,8 +18,9 @@
     gap: 25px;
     flex-wrap: wrap;
     .css-l3mix9-MuiPaper-root-MuiCard-root {
-      width: 265px;
+      max-width: 265px;
       height: 328px;
+      width: 100%;
       img {
         height: 246px;
       }

@@ -3,7 +3,8 @@
   .nav-contents {
     display: flex;
     justify-content: Space-between;
-    width: 1140px;
+    width: 100%;
+    max-width: 1140px;
     margin: auto;
     .logo {
       padding-top: 24px;
@@ -12,7 +13,8 @@
       padding-top: 16px;
       padding-bottom: 16px;
       .me-2 {
-        width: 500.7px;
+        width: 100%;
+        max-width: 500.7px;
         height: 45px;
         left: 431px;
         padding: 10px;
@@ -87,9 +89,10 @@
     border-top:1px solid white;
 
     .sec-nav-items {
+      width: 100%;
       margin: auto;
       height: 57px;
-      width: 1140px;
+      max-width: 1140px;
       display:flex;
       justify-content: space-between;
       
